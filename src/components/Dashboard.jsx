@@ -111,7 +111,7 @@ const Dashboard = () => {
   }, [dateRange, data]);
 
   return (
-    <div className="flex flex-wrap min-h-screen">
+    <div className="flex flex-wrap min-h-screen w-screen">
       <Sidebar
         darkMode={darkMode} 
         isSidebarOpen={isSidebarOpen}
@@ -131,7 +131,7 @@ const Dashboard = () => {
               }`}
               onClick={() => setDarkMode(prev => !prev)}
             >
-              {darkMode ? "🌞" : "🌙"}
+              {darkMode ? "🌞 Light Mode" : "🌙 Dark Mode"}
             </button>
           </div>
 
@@ -169,7 +169,7 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <h1 className="text-xl lg:text-2xl font-bold text-center mb-6">Statistics Chart for the Month of Jan 2025</h1>
+          <h3 className="text-xl lg:text-2xl font-bold text-center mb-6">Statistics Chart for the Month of Jan 2025</h3>
 
           <div className="grid grid-cols-1 gap-4">
             <div className={`p-2 rounded-lg ${darkMode ? "bg-gray-800" : "bg-gray-100"}`} style={chartContainerStyle}>

@@ -169,7 +169,7 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <h1 className="text-xl lg:text-2xl font-bold text-center mb-6">Statistics Chart for the Month of Jan 2025</h1>
+          <h3 className="text-xl lg:text-2xl font-bold text-center mb-6">Statistics Chart for the Month of Jan 2025</h3>
 
           <div className="grid grid-cols-1 gap-4">
             <div className={`p-2 rounded-lg ${darkMode ? "bg-gray-800" : "bg-gray-100"}`} style={chartContainerStyle}>

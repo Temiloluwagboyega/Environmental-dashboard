@@ -6,10 +6,10 @@ import React from 'react'
   const Sidebar = ({ darkMode, isSidebarOpen, setIsSidebarOpen }) => {
     const navItems = [
       { icon: Home, label: 'Home', path: '/' },
-      { icon: BarChart, label: 'Statistics', path: '/statistics', active: true },
-      { icon: Users, label: 'Team', path: '/team' },
-      { icon: FileText, label: 'Reports', path: '/reports' },
-      { icon: Settings, label: 'Settings', path: '/settings' },
+      { icon: BarChart, label: 'Statistics', path: '/', active: true },
+      { icon: Users, label: 'Team', path: '/' },
+      { icon: FileText, label: 'Reports', path: '/' },
+      { icon: Settings, label: 'Settings', path: '/' },
     ];
 
     return (
